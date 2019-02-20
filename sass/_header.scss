@@ -1,0 +1,130 @@
+/* header-section */
+
+.header-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: $color-4;
+    background-image: $header-bg;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+   
+}
+
+/* header */
+
+.header{
+    width:($content/$wrapper-max-width)*100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 6.2rem;
+}
+
+.main-logo {
+    width: 15.47008547008547%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    text-decoration: none;
+}
+
+.main-logo:hover {
+    opacity: 0.8;
+}
+
+.main-logo:focus {
+    opacity: 0.8;
+}
+
+.img-logo{
+    width: 35.35911602209945%;
+}
+
+.logo-caption{
+    text-transform: capitalize;
+    box-sizing: border-box;
+    color: $color-1;
+    font-family: $Raleway;
+    font-size: 3.4rem;
+    font-weight: 400;
+    letter-spacing: -0.136;
+}
+
+/* nav */
+
+.nav {
+    width: 54.44444444444444%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    margin-left: 18%;
+    
+}
+
+
+.main-menu {
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: $color-1;
+    font-family: $Montserrat;
+    font-size: 1.4rem;
+    font-weight: 300;
+    white-space: nowrap;
+    margin-right:4%;
+}
+
+.main-menu:hover {
+    color: $color-2;
+}
+
+.main-menu:focus {
+    color: $color-2;
+}
+
+.main-menu:nth-child(8){
+    margin-right: 0%;
+}
+
+.menu-button{
+    width: 5.982905982905983%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5.384615384615385%;
+}
+
+.menu-button_link{
+    width: 34.28571428571429%;
+    height:2.4rem;
+}
+
+.menu-button_link:nth-child(1){
+    background-image: url(../img/icon-cart.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.menu-button_link:nth-child(2){
+    background-image: url(../img/icon-search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.menu-button_link:hover{
+    opacity: 0.8;
+}
+
