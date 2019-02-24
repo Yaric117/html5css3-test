@@ -1,9 +1,13 @@
+/* our-services */
+
 .our-services {
     width: ($content/$wrapper-max-width)*100%;
+    min-width:($content/$wrapper-max-width)*100%;
+    max-width: $content;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     background-color: $color-1;
+    margin: 0 auto;
     padding: 8.9rem 0 16.3rem 0;
 }
 
