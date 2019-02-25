@@ -5,6 +5,7 @@
     min-width:($content/$wrapper-max-width)*100%;
     max-width: $content;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     background-color: $color-1;
     margin: 0 auto;
@@ -13,6 +14,7 @@
 
 .our-services_link {
     width: 22.73504273504274%;
+    min-width: 22.73504273504274%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -39,7 +41,7 @@
     font-size: 2.2rem;
     font-weight: 400;
     text-transform: capitalize;
-    margin-top: 3rem;
+    margin-top: 30px;
 }
 
 .our-services_link_item {
@@ -52,17 +54,19 @@
     font-weight: 300;
     line-height:1;
     text-transform: capitalize;
-    margin-top: 2.4rem;
+    margin-top: 24px;
 }
 
 .our-services_link_item::after{
     content:'';
     display:  block;
     width: 26.31578947368421%;
-    height: 0.3rem;
+    min-width: 26.31578947368421%;
+    height: 3px;
+    min-height: 3px;
     background-color: $color-17;
     margin: 0 auto;
-    margin-top: 3rem;
+    margin-top: 30px;
     
 }
 
@@ -75,17 +79,18 @@
     font-size: 1.4rem;
     font-weight: 300;
     line-height:1;
-    margin-top: 2.4rem;
+    margin-top: 24px;
 }
 
 .our-services_link_item_hover::after{
     content:'';
     display:  block;
     width: 26.31578947368421%;
-    height: 0.3rem;
+    height: 3px;
+    min-height: 3px;
     background-color: $color-2;
     margin: 0 auto;
-    margin-top: 3rem;
+    margin-top: 30px;
 }
 
 .our-services_link:hover{

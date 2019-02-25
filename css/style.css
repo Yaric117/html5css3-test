@@ -229,6 +229,7 @@ img {
 /* nav */
 .nav {
   width: 54.44444444444444%;
+  min-width: 54.44444444444444%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -251,6 +252,8 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 /* .main-menu_item{
@@ -416,11 +419,11 @@ img {
 }
 
 .header-section_slider_button {
-  width: 10.49382716049383%;
+  width: 170px;
   min-width: 170px;
   max-width: 170px;
-  height: 5.3rem;
-  min-height: 42px;
+  height: 53px;
+  min-height: 53px;
   max-height: 53px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -436,11 +439,11 @@ img {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
   margin-top: 52px;
-  border-radius: 0.5rem;
+  border-radius: 5px;
   background-color: #998675;
   color: #ffffff;
   font-family: "raleway-extraBold", "Arial", sans-serif;
-  font-size: 1.4rem;
+  font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -516,6 +519,8 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -526,6 +531,7 @@ img {
 
 .our-services_link {
   width: 22.73504273504274%;
+  min-width: 22.73504273504274%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -560,7 +566,7 @@ img {
   font-size: 2.2rem;
   font-weight: 400;
   text-transform: capitalize;
-  margin-top: 3rem;
+  margin-top: 30px;
 }
 
 .our-services_link_item {
@@ -573,17 +579,19 @@ img {
   font-weight: 300;
   line-height: 1;
   text-transform: capitalize;
-  margin-top: 2.4rem;
+  margin-top: 24px;
 }
 
 .our-services_link_item::after {
   content: '';
   display: block;
   width: 26.31578947368421%;
-  height: 0.3rem;
+  min-width: 26.31578947368421%;
+  height: 3px;
+  min-height: 3px;
   background-color: #f1eee9;
   margin: 0 auto;
-  margin-top: 3rem;
+  margin-top: 30px;
 }
 
 .our-services_link_item_hover {
@@ -595,17 +603,18 @@ img {
   font-size: 1.4rem;
   font-weight: 300;
   line-height: 1;
-  margin-top: 2.4rem;
+  margin-top: 24px;
 }
 
 .our-services_link_item_hover::after {
   content: '';
   display: block;
   width: 26.31578947368421%;
-  height: 0.3rem;
+  height: 3px;
+  min-height: 3px;
   background-color: #c7b299;
   margin: 0 auto;
-  margin-top: 3rem;
+  margin-top: 30px;
 }
 
 .our-services_link:hover .our-services_link_icon {
@@ -848,7 +857,7 @@ img {
   background-color: #998675;
   color: #ffffff;
   font-family: "raleway-extraBold", "Arial", sans-serif;
-  font-size: 1.4rem;
+  font-size: 14px;
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;

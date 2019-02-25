@@ -63,6 +63,7 @@
 
 .nav {
     width: 54.44444444444444%;
+    min-width: 54.44444444444444%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -77,6 +78,7 @@
     display: flex;
     list-style-type: none;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* .main-menu_item{
