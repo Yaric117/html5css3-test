@@ -1,35 +1,36 @@
 @font-face{
     font-family: 'montserrat';
-    src: local('montserrat')
-    url(../fonts/montserrat/montserrat-light-webfont.woff2)
-    url(../fonts/montserrat/montserrat-light-webfont.woff)
+    src: local('montserrat'),
+    url(../fonts/montserrat/montserrat-light-webfont.woff2),
+    url(../fonts/montserrat/montserrat-light-webfont.woff),
     url(../fonts/montserrat/montserrat-light.ttf);
     font-weight: 300;
 }
 
 @font-face{
     font-family: 'montserrat';
-    src: local('montserrat')
-    url(../fonts/montserrat/montserrat-regular-webfont.woff2)
-    url(../fonts/montserrat/montserrat-regular-webfont.woff)
+    src: local('montserrat'),
+    url(../fonts/montserrat/montserrat-regular-webfont.woff2),
+    url(../fonts/montserrat/montserrat-regular-webfont.woff),
     url(../fonts/montserrat/montserrat-regular.ttf);
     font-weight: 400;
 }
 
 @font-face{
-    font-family: 'ultra-regular';
-    src: local('ultra-regular')
-    url(../fonts/ultra-regular-webfont.woff2)
-    url(../fonts/ultra-regular-webfont.woff)
-    url(../fonts/ultra-regular.ttf);
+    font-family: 'montserrat-ultralight';
+    src: local('montserrat-ultralight'),
+    url(../fonts/montserrat-ultralight-webfont.woff2) format('woff2'),
+    url(../fonts/montserrat-ultralight-webfont.woff) format('woff'),
+    url(../fonts/montserrat-ultralight-webfont.ttf) format('ttf'),
+    url(../fonts/Montserrat-UltraLight.otf);
     font-weight: 400;
 }
 
 @font-face{
     font-family: 'raleway-extraBold';
-    src: local('raleway-extraBold')
-    url(../fonts/raleway/raleway-extrabold-webfont.woff2)
-    url(../fonts/raleway/raleway-extrabold-webfont.woff)
+    src: local('raleway-extraBold'),
+    url(../fonts/raleway/raleway-extrabold-webfont.woff2),
+    url(../fonts/raleway/raleway-extrabold-webfont.woff),
     url(../fonts/raleway/raleway-extraBold.ttf);
     font-weight: 400;
    
@@ -37,100 +38,49 @@
 
 @font-face{
     font-family: 'raleway-semiBold';
-    src: local('raleway-semiBold')
-    url(../fonts/raleway/raleway-semibold-webfont.woff2)
-    url(../fonts/raleway/raleway-semibold-webfont.woff)
+    src: local('raleway-semiBold'),
+    url(../fonts/raleway/raleway-semibold-webfont.woff2),
+    url(../fonts/raleway/raleway-semibold-webfont.woff),
     url(../fonts/raleway/Raleway-SemiBold.ttf);
     font-weight: 400;
 }
 
 @font-face{
     font-family: 'raleway';
-    src: local('raleway')
-    url(../fonts/raleway/raleway-extrabold-webfont.woff2)
-    url(../fonts/raleway/raleway-bold-webfont.woff)
+    src: local('raleway'),
+    url(../fonts/raleway/raleway-extrabold-webfont.woff2),
+    url(../fonts/raleway/raleway-bold-webfont.woff),
     url(../fonts/raleway/raleway-bold.ttf);
     font-weight: 700;
 }
 
 @font-face{
     font-family: 'raleway';
-    src: local('raleway')
-    url(../fonts/raleway/raleway-medium-webfont.woff2)
-    url(../fonts/raleway/raleway-medium-webfont.woff)
+    src: local('raleway'),
+    url(../fonts/raleway/raleway-medium-webfont.woff2),
+    url(../fonts/raleway/raleway-medium-webfont.woff),
     url(../fonts/raleway/raleway-medium.ttf);
     font-weight: 500;
 }
 
 @font-face{
     font-family: 'raleway';
-    src: local('raleway')
-    url(../fonts/raleway/raleway-regular-webfont.woff2)
-    url(../fonts/raleway/raleway-regular-webfont.woff)
+    src: local('raleway'),
+    url(../fonts/raleway/raleway-regular-webfont.woff2),
+    url(../fonts/raleway/raleway-regular-webfont.woff),
     url(../fonts/raleway/raleway-regular.ttf);
     font-weight: 400;
 }
 
 @font-face{
     font-family: 'roboto-regular';
-    src: local('roboto-regular')
-    url(../fonts/roboto-regular-webfont.woff2)
-    url(../fonts/roboto-regular-webfont.woff)
+    src: local('roboto-regular'),
+    url(../fonts/roboto-regular-webfont.woff2),
+    url(../fonts/roboto-regular-webfont.woff),
     url(../fonts/roboto-regular.ttf);
     font-weight: 400;
 }
 
-@media screen and (min-width: 1224px) {
-    
-    html {
-        font-size: (1224px/$wrapper-max-width*$html-fontsize);
-    }
-}
-
-@media screen and (min-width: 1300px)  {
-    html {
-        font-size: (1300px/$wrapper-max-width*$html-fontsize);
-    }
-}
-
-@media screen and (min-width: 1400px) {
-    html {
-        font-size: (1400px/$wrapper-max-width*$html-fontsize);
-    }
-}
-
-@media screen and (min-width: 1500px) {
-    html {
-        font-size: (1500px/$wrapper-max-width*$html-fontsize);
-    }
-}
-
-@media screen and (min-width: 1600px) {
-    html {
-        font-size: (1600px/$wrapper-max-width*$html-fontsize);
-    }
-}
-
-@media screen and (min-width: 1700px) {
-    html {
-        font-size: (1700px/$wrapper-max-width*$html-fontsize);
-    }
-}
-
-@media screen and (min-width: 1800px) {
-    html {
-        font-size: (1800px/$wrapper-max-width*$html-fontsize);
-    }
-}
-
-
-
-
-@media screen and (min-width: 1920px) {
-    html {
-        font-size: $html-fontsize;
-    }
-}
 
 
 

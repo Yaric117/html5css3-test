@@ -1,0 +1,194 @@
+/* latest-projects */
+
+.latest-projects {
+    width: ($content/$wrapper-max-width)*100%;
+    min-width: ($content/$wrapper-max-width)*100%;
+    max-width: $content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 81px 0 80px 0;
+}
+
+.latest-projects_caption {
+    color: $color-4;
+    font-family: $Raleway-SemiBold;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.latest-projects_item {
+    color: $color-5;
+    font-family: $Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+}
+
+.latest-projects_menu {
+    width: 605px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 0 0;
+}
+
+.latest-projects_menu_link {
+    text-decoration: none;
+    color: $color-5;
+    font-family: $Montserrat;
+    font-weight: 300;
+    line-height: 21px;
+    border-radius: 3px;
+    border: 1px solid $color-15;
+    text-align: center;
+    padding: 0 19px 0 19px;
+    transition: .3s linear;
+    &:hover {
+        background-color: $color-16;
+        color: $color-1;
+    }
+}
+
+.latest-projects_block-img {
+    width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 0 10px 0;
+}
+
+@media screen and (min-width: 840px) and (max-width: 1223px) {
+    .latest-projects_block-img {
+        width: 100%;
+    }
+    .latest-projects_block-img_link {
+        flex-basis: auto;
+        margin: 0 0 0 0;
+    }
+}
+
+.latest-projects_block-img_link {
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    background: $color-26;
+    position: relative;
+    margin: 0 0 30px 0;
+    &:hover {
+        .latest-projects_block-img_link_img {
+            opacity: 0.5;
+        }
+        .latest-projects_block-img_link_text {
+            background-color: $color-19;
+            .latest-projects_block-img_link_text_caption {
+                color: $color-9;
+            }
+            .latest-projects_block-img_link_text_item {
+                color: $color-2;
+            }
+        }
+        .latest-projects_block-img_link_text::before {
+            border-bottom: 10px solid $color-19;
+        }
+        .link {
+            opacity: 1;
+        }
+        .search {
+            opacity: 1;
+        }
+    }
+}
+
+.latest-projects_block-img_link_img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .3s linear;
+}
+
+.latest-projects_block-img_link_text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: $color-7;
+    position: relative;
+    padding: 30px 0 27px 29px;
+    transition: .3s linear;
+    .latest-projects_block-img_link_text_caption {
+        color: $color-2;
+        font-family: $Raleway;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .latest-projects_block-img_link_text_item {
+        color: $color-9;
+        font-family: $Montserrat;
+        font-weight: 300;
+        line-height: 20px;
+    }
+}
+
+.latest-projects_block-img_link_text::before {
+    content: '';
+    display: block;
+    position: absolute;
+    border: 10px solid transparent;
+    border-bottom: 10px solid $color-7;
+    bottom: 100%;
+    left: 5%;
+}
+
+.latest-projects_block-img_link_icon {
+    position: absolute;
+    font-size: 18px;
+    color: $color-1;
+    transition: .3s linear;
+    &:hover {
+        color: $color-2;
+    }
+}
+
+.link {
+    opacity: 0;
+    top: 30%;
+    left: 40%;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition-delay: .3s;
+}
+
+.search {
+    opacity: 0;
+    top: 30%;
+    left: 60%;
+    transition-property: opacity;
+    transition-duration: .5s;
+    transition-delay: .5s;
+    transition-timing-function: linear;
+}
+
+.latest-projects_btn {
+    display: block;
+    text-decoration: none;
+    box-shadow: inset 0 -3px 0 #736357;
+    border-radius: 3px;
+    background-color: $color-16;
+    color: $color-1;
+    font-family: $Raleway-ExtraBold;
+    font-weight: 400;
+    line-height: 50px;
+    text-transform: uppercase;
+    padding: 0 45px 0 45px;
+    transition: .3s linear;
+    &:hover{
+        background-color: $color-9;
+        color: $color-16;
+        box-shadow: 0 0px 10px rgba(0,0,0,0.22);
+    }
+    &:focus{
+        opacity: 0.8;
+    }
+}

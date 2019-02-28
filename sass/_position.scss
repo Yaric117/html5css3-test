@@ -1,37 +1,33 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    transition: .3s ease-in-out;
 }
 
-body{
+body {
     height: 100%;
-    max-width:100%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
+    font-size: 14px;
 }
 
-img{
-    width:100% ;
-    max-width:100%;
+img {
+    width: 100%;
+    max-width: 100%;
 }
 
-
-.conteiner{
+.conteiner {
     width: 100%;
     max-width: $wrapper-max-width;
-    min-width:1224px;
-    height:auto;
+    min-width: 1224px;
+    height: auto;
     max-height: auto;
     margin: 0 auto;
     position: relative;
 }
 
-.main{
+.main {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
 }
-
-

@@ -1,0 +1,77 @@
+/* mobile-devices */
+
+.mobile-devices {
+    position: relative;
+    background-image: url(../img/iPhone_in_hand.png);
+    background-repeat: no-repeat;
+    background-position-x: 22%;
+    background-position-y: 100%;
+    background-size: auto 90%;
+    padding: 195px 0 183px 0;
+}
+
+.mobile-devices_content {
+    width: 657px;
+    display: block;
+    /* position: absolute;
+    left:45.7% ;
+    top:195px; */
+    margin: 0 0 0 45.7%;
+}
+
+.mobile-devices_content_caption {
+    color: $color-4;
+    font-family: $Raleway-SemiBold;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.mobile-devices_content_item {
+    color: $color-5;
+    font-family: $Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    padding: 40px 0 45px 0;
+}
+
+.mobile-devices_content_list {
+    padding: 0 0 0 80px;
+    /* position: absolute; */
+}
+
+/* .mobile-devices_content_list{
+    padding: 45px 0 0 0;
+} */
+
+.mobile-devices_content_list_item {
+    color: $color-5;
+    font-family: $Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    position: relative;
+    outline: none;
+}
+
+.mobile-devices_content_list_item::-webkit-details-marker {
+    display: none;
+}
+
+.mobile-devices_content_list_item::before {
+    content: '>';
+    display: block;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background-color: $color-2;
+    color: $color-1;
+    text-align: center;
+    line-height: 21px;
+    position: absolute;
+    left: -5%;
+}
+
+.mobile-devices_content_list[open] .mobile-devices_content_list_item::before{
+    transform: rotate(90deg);
+}

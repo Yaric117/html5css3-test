@@ -1,0 +1,100 @@
+/* media */
+
+/* fonts */
+
+@media screen and (min-width: 840px) and (max-width: 1223px) {
+    html {
+        font-size: $html-fontsize;
+    }
+}
+
+@media screen and (min-width: 1224px) {
+    html {
+        font-size: (1224px/$wrapper-max-width*$html-fontsize);
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    html {
+        font-size: (1300px/$wrapper-max-width*$html-fontsize);
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    html {
+        font-size: (1400px/$wrapper-max-width*$html-fontsize);
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    html {
+        font-size: (1500px/$wrapper-max-width*$html-fontsize);
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    html {
+        font-size: (1600px/$wrapper-max-width*$html-fontsize);
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    html {
+        font-size: (1700px/$wrapper-max-width*$html-fontsize);
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    html {
+        font-size: (1800px/$wrapper-max-width*$html-fontsize);
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    html {
+        font-size: $html-fontsize;
+    }
+}
+
+/* position */
+
+@media screen and (min-width: 768px){
+    .conteiner {
+        width: 100%;
+        min-width: 768px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1223px) {
+    .conteiner {
+        width: 100%;
+        min-width: 992px;
+    }
+}
+
+/* header */
+
+@media screen and (min-width: 992px) and (max-width: 1223px) {
+    .header {
+        width: 100%;
+        flex-direction: column;
+    }
+    .nav {
+        width: 637px;
+        padding: 30px 0 0 0;
+        .menu-button {
+            display: none;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .header {
+        width: 100%;
+        flex-direction: column;
+        .nav {
+            display: none;
+            }
+    }
+    
+}
