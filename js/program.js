@@ -6,7 +6,7 @@ $(document).ready(function () {
 });
 
 
-$({blurRadius: 5}).animate({blurRadius: 0}, {
+/* $({blurRadius: 5}).animate({blurRadius: 0}, {
 	duration: 1000,
 	easing: 'swing',
 	step: function() {
@@ -24,7 +24,7 @@ $(".statistics_list_explanation_item").each(function() {
 		"font-size": "40px",
 		numberStep: comma_separator_number_step},
 		1000);
-}); 
+});  */
 
 
 
